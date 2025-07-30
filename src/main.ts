@@ -42,11 +42,11 @@ console.log(`Borrow result: ${borrowResult2}`);
 
 // Демонстрація повернення
 console.log('Attempting to return copy1...');
-borrowService.returnBook(reader, copy1);
+borrowService.return(reader, copy1);
 console.log(`Copy1 is available: ${copy1.isCopyAvailable()}`);
 
 // Демонстрація поліморфізму
-console.log('\\nBook descriptions:');
+console.log('\nBook descriptions:');
 console.log(book.getDescription());
 console.log(ebook.getDescription());
 
