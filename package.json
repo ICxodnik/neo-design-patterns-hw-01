@@ -1,0 +1,19 @@
+{
+  "name": "hw01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "У цьому завданні ви моделюєте невелику систему, схожу на ті, з якими стикаються розробники в реальних проєктах. Завдяки цьому попрактикуєтесь у застосуванні ключових принципів ООП — інкапсуляції, композиції, наслідування і поліморфізму — у зв’язному, життєвому контексті.",
+  "main": "src/main.ts",
+  "keywords": [],
+  "author": "Nataliia Khodova <icxodnik@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "npx ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
