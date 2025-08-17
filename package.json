@@ -9,6 +9,8 @@
   "license": "ISC",
   "scripts": {
     "start": "npx ts-node src/main.ts",
+    "build": "tsc ",
+    "build:start": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
