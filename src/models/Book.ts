@@ -11,4 +11,4 @@ export class Book extends AbstractBook {
     const author = this.getAuthor();
     return `Physical book "${this.getTitle()}" by ${author.getName()} (${this.getYear()})`;
   }
-}ы
+}

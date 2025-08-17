@@ -1,7 +1,4 @@
-export abstract class AbstractBook {
-  // TODO: Implement the AbstractBook class
-}
-фimport { Author } from './Author';
+import { Author } from './Author';
 
 export abstract class AbstractBook {
   private title: string;
@@ -27,4 +24,4 @@ export abstract class AbstractBook {
   getAuthor(): Author {
     return this.author;
   }
-}ы
+}

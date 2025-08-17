@@ -1,6 +1,3 @@
-export class EBook {
-  // TODO
-}
 import { AbstractBook } from './AbstractBook';
 import { Author } from './Author';
 

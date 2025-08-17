@@ -15,4 +15,4 @@ export class BorrowService {
     copy.return();
     reader.return(copy);
   }
-}ы
+}
