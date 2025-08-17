@@ -20,3 +20,28 @@
   - отримання вільних копій
   - пошуку книг за автором
 - **`BorrowService`** окремий сервіс для позичання книги читачу `borrow(reader: Reader, copy: Copy)`.
+
+### Запуск
+Перейдіть в коріневу папку проєкту та виконайте наступну команду
+```
+npm run start
+```
+або
+```
+npx ts-node src/main.ts
+```
+
+### Приклад виконання:
+
+```
+Attempting to borrow copy1...
+Borrow result: true
+Attempting to borrow copy1 again...
+Borrow result: false
+Attempting to return copy1...
+Copy1 is available: true
+
+Book descriptions:
+Physical book "The Great Book" by John Doe (2020)
+E-book "Digital Book" by John Doe (2021) - Available at: <https://example.com/ebook>
+```
